@@ -22,6 +22,14 @@
         <title>Responsive Portfolio Website</title>
     </head>
     <body>
+
+        <!--========== Pre Loader =============-->
+
+        <div id="preloader"></div>
+        
+
+
+
         <!--==================== HEADER ====================-->
         <header class="header" id="header">
             <nav class="nav container">
@@ -923,6 +931,8 @@
                 <p class="footer__copy">&#169; SRRANAWP. All Right Reserved</p>
             </div>
         </footer>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ls6HLrdUXRs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         
         <!--==================== SCROLL TOP ====================-->
         
@@ -935,6 +945,16 @@
 
         <!--==================== MAIN JS ====================-->
         <script src="js/main.js"></script>
+
+        <script src="js/custome.js"></script>
+
+        <script>
+            	var load = document.getElementById('preloader');preloader
+
+                window.addEventListener("load", function(){
+                    load.style.display = "none";
+                })
+        </script>
         
     </body>
 </html>
